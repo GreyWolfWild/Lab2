@@ -27,7 +27,7 @@ int main()
 		{
 			printf("D > 0; 2 корня:\n");
 			printf("x1 = %lf\n", (-b + sqrt(discriminant))/(2*a));
-			printf("x2 = %lf\n", (-b + sqrt(discriminant))/(2*a));
+			printf("x2 = %lf\n", (-b - sqrt(discriminant))/(2*a));
 		}
 		else if (discriminant == 0)
 		{
